@@ -3,7 +3,8 @@
 	"package": "use.spiral.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ClientPlayNetworkHandlerMixin"
+		"ClientPlayNetworkHandlerMixin",
+        "SendPacketMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
@@ -12,3 +13,4 @@
 		"requireAnnotations": true
 	}
 }
+
