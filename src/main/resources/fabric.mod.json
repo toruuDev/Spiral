@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "spiral",
+	"version": "${version}",
+	"name": "spiral",
+	"description": "Spiral Client is a client made for legacyminigames.net",
+	"authors": [
+		"toruuDev"
+	],
+	"contact": {
+		"homepage": "https://github.com/toruuDev/spiral",
+		"sources": "https://github.com/toruuDev/spiral"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/spiral/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"use.spiral.Spiral"
+		]
+	},
+	"mixins": [
+		"spiral.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
