@@ -56,14 +56,4 @@ public abstract class ClientPlayNetworkHandlerMixin extends ClientCommonNetworkH
             info.cancel();
         }
     }
-
-    @Inject(method = "sendPacket", at = @At("HEAD"), cancellable = true)
-    private void onSendPacket(Packet<?> packet, CallbackInfo ci) {
-        SendPacketEvent event = new SendPacketEvent(packet);
-        Spiral.eventBus.post(event);
-
-        if(event.isCancelled()) {
-            ci.cancel();
-        }
-    }
 }
