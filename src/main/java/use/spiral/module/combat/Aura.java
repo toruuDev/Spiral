@@ -11,7 +11,7 @@ import static use.spiral.Spiral.mc;
 
 public class Aura extends Module {
 
-    private final double range = 4.1;
+    private final double range = 3.3;
 
     public PlayerEntity target;
 
