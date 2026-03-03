@@ -27,6 +27,7 @@ public class ModuleManager {
             // Player
             new Sprint(),
             new KeepSprint(),
+            new InventoryMove(),
 
             // Visual
             new ModuleList(),
