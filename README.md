@@ -23,5 +23,5 @@ Friend
 Help 
 
 # How to compile 
-Windows: gradlew build 
-Linux: chmod +x && ./gradlew build 
+Windows: `gradlew build` and for linux
+Linux: `chmod +x && ./gradlew build `
