@@ -1,6 +1,6 @@
-A very quick made client made for legacyminigames.net 
+# A very quick made client made for legacyminigames.net 
 
-Modules: 
+# Modules: 
 client:
 ClickGui
 DiscordRPC
@@ -20,4 +20,8 @@ ModuleList, Watermark
 Commands:
 Bind
 Friend
-Help
+Help 
+
+# How to compile 
+Windows: gradlew build 
+Linux: chmod +x && ./gradlew build 
